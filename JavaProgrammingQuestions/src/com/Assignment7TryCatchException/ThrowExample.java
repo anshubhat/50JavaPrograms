@@ -1,4 +1,4 @@
-package Assignment7TryCatchException;
+package com.Assignment7TryCatchException;
 
 public class ThrowExample {
 	
