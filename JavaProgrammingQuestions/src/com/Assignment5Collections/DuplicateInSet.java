@@ -9,9 +9,7 @@ public class DuplicateInSet {
 		int [] arr={1,2,3,3,4,5,6,7,7};
 		
 		HashSet<Integer> dupset=new HashSet<Integer>();
-		
-		
-		
+	
 		for (int i=0; i<=arr.length; i++){
 			if(dupset.add(arr[i])==false){
 				System.out.println("Dublicate ::" + arr[i]);
